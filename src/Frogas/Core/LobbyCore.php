@@ -13,7 +13,7 @@ class LobbyCore extends PluginBase implements Listener{
 
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getLogger()->info("Plugin Created Author by iCat21 Reza2175");
+        $this->getServer()->getLogger()->info("Plugin Created Author by Frogas Reza2175");
         $this->core = new Config($this->getDataFolder()."Core.yml", Config::YAML);
     }
 }
