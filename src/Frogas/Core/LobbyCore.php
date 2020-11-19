@@ -1,6 +1,6 @@
 <?php
 
-namespace iCat21\Core;
+namespace Frogas\Core;
 
 use pocketmine\Player;
 use pocketmine\Server;
